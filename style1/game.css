@@ -1,0 +1,54 @@
+@font-face {
+	font-family:game;
+	src: url(汉仪雪君体简.ttf);
+}
+body,html{
+	font-family: game;
+	font-size: 38px;
+}
+.login-con
+{
+	width: 1200px;
+	height: 600px;
+	background-image:url(../img/login-bg.jpg) ;
+	margin: auto;
+	position: relative;
+	
+	
+}
+
+.login-con input[type="text"]
+{
+	position: absolute;
+	left: 480px;
+	bottom: 175px;
+	width: 230px;
+	height: 50px;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	color: white;
+	text-align: center;
+	font-family: game;
+	transition:all 0.5s linear;
+}
+
+.login-con button
+{
+	position: absolute;
+	left: 480px;
+	bottom: 95px;
+	width: 230px;
+	height: 50px;
+	background-color: transparent;
+	color: white;
+	border: none;
+	outline: none;
+	font-family: game;
+	text-align: center;
+	transition:all 0.5s linear;
+}
+.login-con input:hover,.login-con button:hover
+{
+	color:green;
+}
